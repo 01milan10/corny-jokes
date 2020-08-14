@@ -1,6 +1,6 @@
 <template>
-  <div class="antialiased">
-    <headNav />
+  <div class="relative antialiased">
+    <headNav class="z-20 sticky top-0" />
     <Nuxt />
   </div>
 </template>

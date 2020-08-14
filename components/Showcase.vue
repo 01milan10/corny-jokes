@@ -2,7 +2,6 @@
   <div class="flex bg-gray-800">
     <div class="px-4 py-6 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
       <div class="xl:max-w-lg xl:ml-auto">
-        <img class="h-10" src="~/assets/logo.png" alt="logo" />
         <img
           class="mt-5 rounded-lg shadow-xl sm:mt-8 sm:w-full sm:object-cover sm:object-center lg:hidden"
           src="~/assets/workcation.jpg"

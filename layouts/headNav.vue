@@ -2,9 +2,9 @@
   <div>
     <header class="sm:px-4 sm:py-3 bg-gray-900 sm:flex sm:justify-between sm:items-center">
       <div class="px-4 py-3 sm:p-0 flex justify-between items-center">
-        <div>
+        <nuxt-link to="/">
           <img class="h-8" src="~assets/logo.png" alt="brand logo" />
-        </div>
+        </nuxt-link>
         <div class="sm:hidden">
           <svg
             @click="isOpen=!isOpen"
@@ -26,20 +26,20 @@
       <div class="sm:block" :class="isOpen? 'block' :'hidden'">
         <div class="px-2 py-2 sm:p-0 sm:flex items-center text-gray-200">
           <nuxt-link
+            to="/"
+            class="px-2 py-1 sm:ml-2 block hover:bg-gray-800 font-semibold rounded"
+            href="#"
+          >Home</nuxt-link>
+          <nuxt-link
             to="/property"
             class="px-2 py-1 block hover:bg-gray-800 font-semibold rounded"
             href="#"
           >Property Listing</nuxt-link>
           <nuxt-link
-            to="#"
+            to="/locations"
             class="px-2 py-1 sm:ml-2 block hover:bg-gray-800 font-semibold rounded"
             href="#"
           >Vacation</nuxt-link>
-          <nuxt-link
-            to="/"
-            class="px-2 py-1 sm:ml-2 block hover:bg-gray-800 font-semibold rounded"
-            href="#"
-          >Destinations</nuxt-link>
           <AccoutDropdown class="sm:ml-4 px-2 py-1 hidden sm:block" />
         </div>
         <div class="block sm:hidden border-t border-gray-800">
